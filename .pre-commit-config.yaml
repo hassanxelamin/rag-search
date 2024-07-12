@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.11.0
+    rev: v3.27.0
     hooks:
       - id: commitizen
         language_version: "python3.12"
@@ -24,7 +24,7 @@ repos:
     hooks:
       - id: mypy
         name: Run mypy
-        entry: backend/.venv/bin/mypy
+        entry: .venv/bin/mypy
         exclude: settings.py
         language: python
         language_version: python3.12
